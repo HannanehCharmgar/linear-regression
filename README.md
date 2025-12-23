@@ -107,7 +107,7 @@ print(f"\n Class Distribution:")
 print(df['target_binary'].value_counts())
 print(f"\nPercentage with disease: {(df['target_binary'].sum() / len(df) * 100):.1f}%")
 ```
-## تحلیل داده ( بص.رت بصری)
+## تحلیل داده ( بصورت بصری)
 تحلیل‌های انجام‌شده:
 
 توزیع ویژگی‌های عددی بین افراد سالم و بیمار
