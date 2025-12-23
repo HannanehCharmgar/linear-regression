@@ -61,7 +61,6 @@ column_names = [
 df = pd.read_csv(filename, names=column_names)
 
 print("\n Dataset Information:")
-print("="*30)
 print(f"Number of samples: {df.shape[0]}")
 print(f"Number of features: {df.shape[1]}")
 print(f"\nFeature names:")
